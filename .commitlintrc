@@ -16,6 +16,7 @@
         "refactor",
         "revert",
         "style",
+        "rm",
         "test"
       ]
     ]
