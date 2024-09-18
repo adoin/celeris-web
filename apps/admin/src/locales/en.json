@@ -1,250 +1,254 @@
 {
-  "routes": {
-    "components": {
-      "components": "Component Example",
-      "table": "Table Component",
-      "headlessTable": "Headless Table",
-      "headlessTableBasic": "Basic Table",
-      "headlessTablePagination": "Pagination Table"
-    },
-    "chat": {
-      "chat": "Chat"
-    },
-    "profile": {
-      "profile": "Profile"
-    },
-    "design": {
-      "design": "Design",
-      "palette": "Palette",
-      "typography": "Typography"
-    },
-    "dashboard": {
-      "dashboard": "Dashboard"
-    },
-    "directives": {
-      "directives": "Directive Examples",
-      "permission": "Permission Directive",
-      "copy": "Copy Directive",
-      "ripple": "Ripple Directive"
-    },
-    "iframe": {
-      "iframe": "Embedded Webpage",
-      "githubInternal": "GitHub (Embedded)",
-      "GitHubExternal": "GitHub (External)",
-      "viteInternal": "Vite Documentation (Embedded)",
-      "ViteExternal": "Vite Documentation (External)"
-    },
-    "permission": {
-      "permission": "Permission Test",
-      "authPageA": "Test Page A",
-      "authPageB": "Test Page B",
-      "frontend": "Frontend-based",
-      "backend": "Backend-based",
-      "pageAuth": "Page Permissions",
-      "buttonAuth": "Button Permissions",
-      "role": "Role Permissions",
-      "directive": "Directive Permissions"
-    },
-    "result": {
-      "result": "Result Page",
-      "success": "Success Page",
-      "fail": "Fail Page"
-    }
-  },
   "layouts": {
     "header": {
-      "toggleCollapsed": "Toggle Menu",
-      "toggleFullScreen": "Toggle Fullscreen",
-      "switchLocale": "Switch Language",
-      "settingDrawer": "Settings Drawer",
-      "openSettingDrawer": "Open Settings Drawer",
-      "projectSetting": "Project Settings",
+      "colorWeak": "Color Weak Mode",
       "darkMode": "Dark Mode",
       "followSystem": "Follow System",
+      "lightMode": "Light Mode",
+      "openSettingDrawer": "Open Settings Drawer",
+      "projectSetting": "Project Settings",
+      "settingDrawer": "Settings Drawer",
+      "switchLocale": "Switch Language",
       "systemDefault": "System Default",
       "systemTheme": "System Theme",
-      "themeMode": "Theme Mode",
-      "lightMode": "Light Mode",
-      "colorWeak": "Color Weak Mode",
       "themeConfig": {
-        "title": "Theme Configuration",
         "copyConfigButton": "Copy Current Configuration",
-        "resetConfigButton": "Reset Current Configuration",
         "message": {
           "copyConfigSuccess": "Configuration copied successfully!",
           "resetConfigSuccess": "Configuration reset successfully!"
-        }
+        },
+        "resetConfigButton": "Reset Current Configuration",
+        "title": "Theme Configuration"
       },
+      "themeMode": "Theme Mode",
+      "toggleCollapsed": "Toggle Menu",
+      "toggleFullScreen": "Toggle Fullscreen",
       "transitionSetting": {
-        "title": "Animation Settings",
-        "enableTransition": "Enable Animation",
-        "enableProgressBar": "Enable Progress Bar",
         "enablePageLoadingTransition": "Enable Page Loading Animation",
-        "routeTransition": "Route Transition"
+        "enableProgressBar": "Enable Progress Bar",
+        "enableTransition": "Enable Animation",
+        "routeTransition": "Route Transition",
+        "title": "Animation Settings"
       }
-    },
-    "userInfo": {
-      "userInformation": "User Information",
-      "greeting": "Hello",
-      "rolesList": "Role List: {roles}",
-      "logoutButton": "Logout"
     },
     "logoutConfirmation": {
-      "title": "Warning",
       "content": "Are you sure you want to log out?",
-      "positiveText": "Logout",
       "negativeText": "Cancel",
       "onNegativeClickMessage": "Logout canceled",
-      "onPositiveClickMessage": "Logout successful"
+      "onPositiveClickMessage": "Logout successful",
+      "positiveText": "Logout",
+      "title": "Warning"
+    },
+    "userInfo": {
+      "greeting": "Hello",
+      "logoutButton": "Logout",
+      "rolesList": "Role List: {roles}",
+      "userInformation": "User Information"
     }
   },
-  "searchDialog": {
-    "searchPlaceholder": "Search",
-    "noResultsFound": "Sorry, no results found for { search }",
-    "toSelectTooltip": "to select",
-    "toNavigateTooltip": "to navigate",
-    "applications": "Applications",
-    "chatBot": "ChatBot",
-    "action": "Action",
-    "actions": "Actions",
-    "shortcut": "Shortcut",
-    "go": "Go to "
-  },
   "page": {
-    "login": {
-      "title": "Login",
-      "form": {
-        "username": {
-          "label": "Username",
-          "placeholder": "Enter your username",
-          "error": "Username cannot be empty"
-        },
-        "password": {
-          "label": "Password",
-          "placeholder": "Enter your password",
-          "error": "Password cannot be empty"
-        },
-        "confirmPassword": {
-          "label": "Confirm Password",
-          "placeholder": "Enter your password",
-          "error": "Confirm password cannot be empty",
-          "validator": "Password is not same!"
-        },
-        "forgotPassword": {
-          "label": "Phone Number",
-          "placeholder": "Example: 13812345678",
-          "requiredError": "Phone number is required",
-          "invalidFormatError": "Invalid phone number format"
-        },
-        "socialButtons": {
-          "signInWithQQ": "Sign in with QQ",
-          "signInWithWeChat": "Sign in with WeChat"
-        },
-        "signText": {
-          "signIn": "Don't you have an account?",
-          "forgotPassword": "Back to Sign in",
-          "signUp": "Do you have an account?"
-        },
-        "welcomeBackTitle": "Welcome Back",
-        "helloTitle": "Hello",
-        "forgotPasswordTitle": "Forgot Password",
-        "greetingText": "Celeris Web is a highly performant and customizable front-end development template built with Vue 3, Vite, and TypeScript.",
-        "sendResetLinkButton": "Send Reset Link",
-        "resetLinkSentMessage": "Reset Link sent",
-        "signUp": "Sign up",
-        "backToSignIn": "Back to Sign in",
-        "signIn": "Sign in",
-        "remember": "Remember me",
-        "loginButton": "Sign in",
-        "registerButton": "Create an account",
-        "forgetPassword": "Forgot password",
-        "incorrectAccountOrPassword": "Incorrect account or password!"
-      },
-      "notification": {
-        "loginSuccessMessage": "Login successful",
-        "welcomeBackMessage": "Welcome back, {username}!"
-      }
-    },
     "copyDirective": {
       "copy": "Copy",
       "copyDirective": "Copy Directive Example",
+      "copyError": "Copy failed",
       "copyPlaceholder": "Please enter the content to copy",
-      "copySuccess": "Copy successful",
-      "copyError": "Copy failed"
-    },
-    "rippleDirective": {
-      "ripple": "Ripple",
-      "rippleDirective": "Ripple Directive Example",
-      "description1": "Ripples are state layers used to communicate the status of a component or interactive element.",
-      "description2": "A state layer is a semi-transparent covering on an element that indicates its state."
-    },
-    "permission": {
-      "permissionMode": {
-        "currentMode": "Current Permission Mode",
-        "backendMode": "Backend Permission Mode",
-        "frontendMode": "Frontend Role Permission Mode",
-        "toggleMode": "Toggle Permission Mode"
-      },
-      "pageTitles": {
-        "frontend": "Frontend Permission Example",
-        "backend": "Backend Permission Example",
-        "button": "Button Permission Control"
-      },
-      "roleButtonText": "Visible with {role} Role",
-      "codeButtonText": "Visible with [{code}] Code",
-      "currentPermissionMode": "Current Permission Mode",
-      "currentRole": "Current Role",
-      "currentCode": "Current Code",
-      "clickToSeeButtonChange": "Click to see button changes",
-      "clickToSeeLeftMenuChange": "Click to see left menu changes",
-      "frontendPermissionSwitchTitle": "Permission Switching (Please switch permission mode to Frontend Role mode first)",
-      "backendPermissionSwitchTitle": "Permission Switching (Please switch permission mode to Backend Role mode first)",
-      "componentWayTitle": "Component-based Permission Check (You can register it globally if needed)",
-      "functionWayTitle": "Function-based Permission Check (Suitable for filtering within functions)",
-      "directiveWayTitle": "Directive-based Permission Check (This method cannot dynamically modify permissions)",
-      "backendLeftMenuChangeTitle": "Click to see left menu changes (Must be in Backend Role mode to test the functionality displayed on this page)"
+      "copySuccess": "Copy successful"
     },
     "headlessTable": {
       "pageTitles": {
         "basic": "Basic Table"
       }
     },
+    "login": {
+      "form": {
+        "backToSignIn": "Back to Sign in",
+        "confirmPassword": {
+          "error": "Confirm password cannot be empty",
+          "label": "Confirm Password",
+          "placeholder": "Enter your password",
+          "validator": "Password is not same!"
+        },
+        "forgetPassword": "Forgot password",
+        "forgotPassword": {
+          "invalidFormatError": "Invalid phone number format",
+          "label": "Phone Number",
+          "placeholder": "Example: 13812345678",
+          "requiredError": "Phone number is required"
+        },
+        "forgotPasswordTitle": "Forgot Password",
+        "greetingText": "Celeris Web is a highly performant and customizable front-end development template built with Vue 3, Vite, and TypeScript.",
+        "helloTitle": "Hello",
+        "incorrectAccountOrPassword": "Incorrect account or password!",
+        "loginButton": "Sign in",
+        "password": {
+          "error": "Password cannot be empty",
+          "label": "Password",
+          "placeholder": "Enter your password"
+        },
+        "registerButton": "Create an account",
+        "remember": "Remember me",
+        "resetLinkSentMessage": "Reset Link sent",
+        "sendResetLinkButton": "Send Reset Link",
+        "signIn": "Sign in",
+        "signText": {
+          "forgotPassword": "Back to Sign in",
+          "signIn": "Don't you have an account?",
+          "signUp": "Do you have an account?"
+        },
+        "signUp": "Sign up",
+        "socialButtons": {
+          "signInWithQQ": "Sign in with QQ",
+          "signInWithWeChat": "Sign in with WeChat"
+        },
+        "username": {
+          "error": "Username cannot be empty",
+          "label": "Username",
+          "placeholder": "Enter your username"
+        },
+        "welcomeBackTitle": "Welcome Back"
+      },
+      "notification": {
+        "loginSuccessMessage": "Login successful",
+        "welcomeBackMessage": "Welcome back, {username}!"
+      },
+      "title": "Login"
+    },
+    "permission": {
+      "backendLeftMenuChangeTitle": "Click to see left menu changes (Must be in Backend Role mode to test the functionality displayed on this page)",
+      "backendPermissionSwitchTitle": "Permission Switching (Please switch permission mode to Backend Role mode first)",
+      "clickToSeeButtonChange": "Click to see button changes",
+      "clickToSeeLeftMenuChange": "Click to see left menu changes",
+      "codeButtonText": "Visible with [{code}] Code",
+      "componentWayTitle": "Component-based Permission Check (You can register it globally if needed)",
+      "currentCode": "Current Code",
+      "currentPermissionMode": "Current Permission Mode",
+      "currentRole": "Current Role",
+      "directiveWayTitle": "Directive-based Permission Check (This method cannot dynamically modify permissions)",
+      "frontendPermissionSwitchTitle": "Permission Switching (Please switch permission mode to Frontend Role mode first)",
+      "functionWayTitle": "Function-based Permission Check (Suitable for filtering within functions)",
+      "pageTitles": {
+        "backend": "Backend Permission Example",
+        "button": "Button Permission Control",
+        "frontend": "Frontend Permission Example"
+      },
+      "permissionMode": {
+        "backendMode": "Backend Permission Mode",
+        "currentMode": "Current Permission Mode",
+        "frontendMode": "Frontend Role Permission Mode",
+        "toggleMode": "Toggle Permission Mode"
+      },
+      "roleButtonText": "Visible with {role} Role"
+    },
     "result": {
+      "failPage": {
+        "buttons": {
+          "back": "Go Back",
+          "home": "Return to Home"
+        },
+        "checkNetwork": "Check network >",
+        "errorHeader": "There might be the following issues when sending content:",
+        "messageTooLong": "Message is too long, please simplify",
+        "networkIssue": "Network connection problem",
+        "subTitle": "Sorry, there was a problem sending the content.",
+        "title": "Error Sending Content",
+        "viewHelp": "View help >"
+      },
       "status": {
         "error": "Error",
         "success": "Success"
       },
-      "failPage": {
-        "title": "Error Sending Content",
-        "subTitle": "Sorry, there was a problem sending the content.",
-        "buttons": {
-          "home": "Return to Home",
-          "back": "Go Back"
-        },
-        "errorHeader": "There might be the following issues when sending content:",
-        "networkIssue": "Network connection problem",
-        "checkNetwork": "Check network >",
-        "messageTooLong": "Message is too long, please simplify",
-        "viewHelp": "View help >"
-      },
       "successPage": {
-        "title": "Operation Successful",
-        "subTitle": "Content generated by ChatGPT has been successfully created.",
         "buttons": {
           "home": "Return to Home"
         },
         "contentHeader": "AIGC Generated Content:",
+        "contentLabel": "Content",
+        "generatedContent": "Generated content will be displayed here",
         "generatedTimeLabel": "Generated Time",
         "generatorLabel": "Generator",
-        "generatedContent": "Generated content will be displayed here",
-        "contentLabel": "Content",
         "step1": "Input Content",
         "step2": "Generating",
         "step2Content": "ChatGPT is generating content, please wait a moment.",
         "step3": "Under Review",
         "step3Content": "Generated content is under review and will be approved shortly.",
-        "step4": "Completed"
+        "step4": "Completed",
+        "subTitle": "Content generated by ChatGPT has been successfully created.",
+        "title": "Operation Successful"
       }
+    },
+    "rippleDirective": {
+      "description1": "Ripples are state layers used to communicate the status of a component or interactive element.",
+      "description2": "A state layer is a semi-transparent covering on an element that indicates its state.",
+      "ripple": "Ripple",
+      "rippleDirective": "Ripple Directive Example"
     }
+  },
+  "routes": {
+    "bugs": {
+      "bugs": "Bugs",
+      "warnOnDoubleApple": "Warn On Double Apple"
+    },
+    "chat": {
+      "chat": "Chat"
+    },
+    "components": {
+      "components": "Component Example",
+      "headlessTable": "Headless Table",
+      "headlessTableBasic": "Basic Table",
+      "headlessTablePagination": "Pagination Table",
+      "table": "Table Component"
+    },
+    "dashboard": {
+      "dashboard": "Dashboard"
+    },
+    "design": {
+      "design": "Design",
+      "palette": "Palette",
+      "typography": "Typography"
+    },
+    "directives": {
+      "copy": "Copy Directive",
+      "directives": "Directive Examples",
+      "permission": "Permission Directive",
+      "ripple": "Ripple Directive"
+    },
+    "iframe": {
+      "GitHubExternal": "GitHub (External)",
+      "ViteExternal": "Vite Documentation (External)",
+      "githubInternal": "GitHub (Embedded)",
+      "iframe": "Embedded Webpage",
+      "viteInternal": "Vite Documentation (Embedded)"
+    },
+    "permission": {
+      "authPageA": "Test Page A",
+      "authPageB": "Test Page B",
+      "backend": "Backend-based",
+      "buttonAuth": "Button Permissions",
+      "directive": "Directive Permissions",
+      "frontend": "Frontend-based",
+      "pageAuth": "Page Permissions",
+      "permission": "Permission Test",
+      "role": "Role Permissions"
+    },
+    "profile": {
+      "profile": "Profile"
+    },
+    "result": {
+      "fail": "Fail Page",
+      "result": "Result Page",
+      "success": "Success Page"
+    }
+  },
+  "searchDialog": {
+    "action": "Action",
+    "actions": "Actions",
+    "applications": "Applications",
+    "chatBot": "ChatBot",
+    "go": "Go to ",
+    "noResultsFound": "Sorry, no results found for { search }",
+    "searchPlaceholder": "Search",
+    "shortcut": "Shortcut",
+    "toNavigateTooltip": "to navigate",
+    "toSelectTooltip": "to select"
   }
 }

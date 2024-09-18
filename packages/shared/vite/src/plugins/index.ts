@@ -2,6 +2,7 @@ import type { ViteEnvVariables } from "@celeris/types";
 import type { PluginOption } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
+import vueSetupExtend from "unplugin-vue-setup-extend-plus/vite";
 
 import { createConfigPluginConfig } from "./generateConfig";
 import { createInspectPluginConfig } from "./inspect";
@@ -65,7 +66,12 @@ export function configVitePlugins(
   // https://github.com/antfu/vite-plugin-inspect
   // Visit http://localhost:8888/__inspect/ to see the inspector
   vitePlugins.push(createInspectPluginConfig());
-
+  // setup script 具名组件
+  vitePlugins.push(
+    vueSetupExtend({
+    /* enableAutoExpose 允许自动抛出 */
+    }),
+  );
   // Add the vue dev tools plugin
   // 添加 vue 开发者工具 插件
   // https://github.com/webfansplz/vite-plugin-vue-devtools
